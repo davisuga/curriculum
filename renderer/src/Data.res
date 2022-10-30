@@ -1,0 +1,98 @@
+let cv: Types.me = {
+  name: "Davi William Moraes Suga",
+  subtitle: "Software Engineer",
+  email: "daviciencia1@gmail.com",
+  github: "https://github.com/davisuga",
+  linkedin: "https://www.linkedin.com/in/davisuga/",
+  bio: "Self-taught by nature and programmer since the age of 13, since then in passionate love with the area. In addition to professional experiences, a significant part of what I know was motivated by sheer curiosity and a willingness to experiment and be better.",
+  workExperiences: [
+    {
+      title: "Frontend Developer",
+      place: "Harmonize",
+      startDate: "01/2022",
+      endDate: "11/2022",
+      placeDescription: "Harmonize Health is a remote health management platform that helps providers engage patients easily and reduces the total cost of care.",
+      achievements: [
+        "Developed and maintained various features using React, TypeScript, MaterialUI, lerna, NextJS, and MySQL",
+        "Improved questionnaire table performance by 194%",
+      ],
+      tags: ["frontend", "backend"],
+    },
+    {
+      title: "Software Engineer",
+      place: "Sambatech",
+      startDate: "01/2022",
+      endDate: "01/2022",
+      placeDescription: "SambaTech creates LMS and OTT platforms for companies of any size.",
+      achievements: [
+        "Made a mobile LMS app entirely from scratch for Alpargatas S.A.",
+        "Developed various features including SSO auth, concurrent video downloading, offline-first video viewing using Redux Toolkit, and expo",
+      ],
+      tags: ["frontend", "mobile"],
+    },
+    {
+      title: "Mobile Developer",
+      place: "Adorie",
+      startDate: "03/2021",
+      endDate: "08/2021",
+      placeDescription: "Adorie was e-commerce focused on local stores and delivery within 2 hours.",
+      achievements: [
+        "Improved the overall application experience",
+        "Developed new features, such as geolocation of products and stores, dynamic filters, persistent cache, etc, using React Native.",
+        "Ported the code to the web, adapting each component according to its context.",
+      ],
+      tags: ["frontend", "mobile"],
+    },
+    {
+      title: "Mobile and Frontend Developer",
+      place: "Alpha Lumen Institute",
+      startDate: "11/2019",
+      endDate: "03/2021",
+      placeDescription: "The Alpha Lumen Institute is an NGO that seeks solutions with social impact through educational actions, developing numerous action and inspiration projects with the community. Among them, the \"Compartilhe\" app allows you to share offers from humanitarian resources such as food and courses.",
+      achievements: [
+        "Developed an app called \"Compartilhe\", using Parse as Backend-as-a-Service (BaaS) and React Native with Redux.",
+        "Implemented state management using concepts of immutability, single source of truth, and reactive programming with React and Redux.",
+        "Worked on a learning platform called \"Alpha EdTech\" using React, responsive CSS, state management, JWT authentication, and a custom design system.",
+      ],
+      tags: ["frontend", "mobile"],
+    },
+    {
+      title: "Full-stack Developer",
+      place: "EkonoMe",
+      startDate: "01/2022",
+      endDate: "now",
+      placeDescription: "EkonoMe is an online marketplace for economist's services via videoconferences.",
+      achievements: [
+        "Developed the app in React Native and the web app in React, implementing WebRTC for video conferencing and Firebase for backend",
+        "Adapted the app to different resolutions and operating systems",
+        "Developed the admin panel with a real-time update using React and Realtime Database",
+      ],
+      tags: ["frontend", "mobile"],
+    },
+    {
+      title: "IT infrastructure internship",
+      place: "Quero Educação",
+      startDate: "01/2022",
+      endDate: "01/2022",
+      placeDescription: "Quero Educação is a Brazilian startup that aims to be a graduation marketplace, providing comparing tools and better prices.",
+      achievements: [
+        "Worked together with SysAdmins and DevOps specialists solving a variety of infrastructure issues, like fixing networking issues, coding system scripts in bash and PowerShell, installing Raspberry Pies, and helping people to fix their computers.",
+      ],
+      tags: ["frontend", "mobile"],
+    },
+  ],
+  academicExperiences: [
+    {
+      title: "Computer technician course",
+      place: "IFSP",
+      startDate: "01/2017",
+      endDate: "01/2021",
+      achievements: [
+        "Finalpape: A programming learning platform named Olá Mundo!  [GitHub - davisuga/olamundonex: A simple code learning platform]http://github.com/davisuga/olamundo-next)",
+        "Made from scratch using React + NextJS + ChakraUI for frontend and Prisma + PostgreSQL for backend",
+        "Implemented Incremental Static Generation for platform content and exercises using markdown",
+        "Certified that the platform is responsive and fast across a variety of devices",
+      ],
+    },
+  ],
+}
