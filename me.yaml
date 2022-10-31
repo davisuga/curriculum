@@ -5,9 +5,9 @@ github: github.com/davisuga
 linkedin: www.linkedin.com/in/davisuga/
 bio:
   Self-taught by nature and programmer since the age of 13, since then in passionate
-  love with the area. Functional programming passionate. In addition to professional experiences, a significant part
+  love with the area. In addition to professional experiences, a significant part
   of what I know was motivated by sheer curiosity and a willingness to experiment
-  and be better.
+  and be better. Aficionado for programming languages and functional programming.
 
 workExperiences:
   - title: Frontend Developer
@@ -71,9 +71,9 @@ workExperiences:
     endDate: now
     placeDescription: EkonoMe is an online marketplace for economist's services via videoconferences.
     achievements:
+      - Designed the entire system from scratch
       - Developed mobile and web apps entirely from scratch, using WebRTC and Firebase for backend
       - Implemented real-time features such as Chat and Video conferencing
-      - Adapted the app to different resolutions and operating systems
       - Built the admin panel with a real-time update using React and Realtime Database
     tags:
       - frontend
@@ -97,7 +97,7 @@ academicExperiences:
     startDate: 01/2017
     endDate: 01/2021
     achievements:
-      - Final paper: A programming learning platform named Olá Mundo! https://github.com/davisuga/olamundo-next
+      - "Final paper: A programming learning platform named Olá Mundo! https://github.com/davisuga/olamundo-next"
       - Made from scratch using React + NextJS + ChakraUI for frontend and Prisma + PostgreSQL for backend
       - Implemented Incremental Static Generation for platform content and exercises using markdown
       - Certified that the platform is responsive and fast across a variety of devices

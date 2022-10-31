@@ -1,3 +1,4 @@
+@genType
 type renderer<'output> = {
   h1: string => 'output,
   h2: string => 'output,
@@ -13,6 +14,7 @@ type renderer<'output> = {
 }
 open Belt
 
+@genType
 let makeCurriculum = ({h1, h2, h3, li, p, pipe, combine, breakLine, empty, link}, f: Types.me) => {
   let addNewLine = x => combine(x, breakLine)
   let joinWithLn = a => Array.reduce(a, empty, (a, b) => combine(addNewLine(a), b))
