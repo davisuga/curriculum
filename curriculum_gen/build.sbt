@@ -1,11 +1,11 @@
-val scala3Version = "3.2.1"
+val scalaVersion = "3.2.1"
 lazy val root = project
   .in(file("."))
-  // .enablePlugins(com.typesafe.play.SbtTwirl)
+  .enablePlugins(com.typesafe.play.SbtTwirl)
   .settings(
     name := "Curriculum Generator",
     version := "0.1.0-SNAPSHOT",
-    scalaVersion := scala3Version,
+    scalaVersion := scalaVersion,
     libraryDependencies ++= Seq(
       "org.scalameta" %% "munit" % "0.7.29" % Test,
       ("com.github.pathikrit" %% "better-files" % "3.9.1")
