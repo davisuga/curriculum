@@ -1,9 +1,9 @@
 {
-  "name": "Davi William Moraes Suga",
+  "name": "Davi Suga",
   "subtitle": "Software Engineer",
   "email": "daviciencia1@gmail.com",
   "github": "github.com/davisuga",
-  "linkedin": "www.linkedin.com/in/davisuga/",
+  "linkedin": "linkedin.com/in/davisuga/",
   "bio": "Self-taught by nature and programmer since the age of 13, since then in passionate love with the area. Functional programming passionate. In addition to professional experiences, a significant part of what I know was motivated by sheer curiosity and a willingness to experiment and be better.",
   "workExperiences": [
     {
@@ -13,17 +13,16 @@
       "endDate": "11/2022",
       "placeDescription": "Harmonize Health is a remote health management platform that helps providers engage patients easily and reduces the total cost of care.",
       "achievements": [
-        "Built entire frontend features from scratch including a real-time messaging center and an admin console",
-        "Worked together with the product and design team to improve UX",
-        "Proactively took backend responsibilities and delivered authorization features",
-        "Improved questionnaire table performance by 194% by fixing re-rendering bugs"
+        "Built entire frontend features from Figma Designs like a real-time messaging center, user management system, and dynamic forms",
+        "Worked together with the product and design team to improve the UX of existing features",
+        "Proactively took backend responsibilities and delivered authorization features in a Nest+Node.js app"
       ],
       "tags": ["frontend", "backend"]
     },
     {
       "title": "Software Engineer",
       "place": "Sambatech",
-      "startDate": "01/2022",
+      "startDate": "08/2021",
       "endDate": "01/2022",
       "placeDescription": "SambaTech creates LMS (Learning Management System) and OTT (Over The Top) platforms for companies.",
       "achievements": [
@@ -41,7 +40,7 @@
       "achievements": [
         "Improved overall UX by fixing device-specific visual bugs and increasing performance",
         "Developed new features, such as geolocation of products and stores, dynamic filters, persistent cache, etc, using React Native.",
-        "Ported the code to the web, adapting each component according to its context."
+        "Ported the whole e-commerce mobile app code to the web"
       ],
       "tags": ["frontend", "mobile"]
     },
@@ -52,7 +51,7 @@
       "endDate": "03/2021",
       "placeDescription": "The Alpha Lumen Institute is an NGO that seeks solutions with social impact through educational actions, developing numerous action and inspiration projects with the community. Among them, the \"Compartilhe\" app allows you to share offers from humanitarian resources such as food and courses.",
       "achievements": [
-        "Developed an app called \"Compartilhe\", using Parse in the backend and React Native with Redux.",
+        "Planned implementation and built an app called \"Compartilhe\", using Parse in the backend and React Native.",
         "Implemented state management using concepts of immutability, single source of truth, and reactive programming with React and Redux.",
         "Worked on a learning platform called \"Alpha EdTech\" using React, responsive CSS, Context API, JWT, and a custom design system."
       ],
@@ -65,10 +64,11 @@
       "endDate": "now",
       "placeDescription": "EkonoMe is an online marketplace for economist's services via videoconferences.",
       "achievements": [
-        "Developed mobile and web apps entirely from scratch, using WebRTC and Firebase for backend",
-        "Implemented real-time features such as Chat and Video conferencing",
-        "Adapted the app to different resolutions and operating systems",
-        "Built the admin panel with a real-time update using React and Realtime Database"
+        "Planned the entire implementation based on client needs",
+        "Developed a user-facing mobile app with appointments, chat, and, video conferencing",
+        "Integrated mobile and web clients to let users directly connect to economists for video conferencing",
+        "Implemented full-featured Chat with media uploads on both mobile and web app",
+        "Built a user management panel with a real-time update using React and Realtime Database"
       ],
       "tags": ["frontend", "mobile", "backend"]
     },
