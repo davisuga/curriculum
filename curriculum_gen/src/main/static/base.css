@@ -14,7 +14,7 @@ body {
   padding: 0;
 }
 @media only screen {
-  body {
+  body {  
     margin: 2em auto;
     max-width: 900px;
     color: rgb(55, 53, 47);
@@ -23,7 +23,7 @@ body {
 
 body {
   line-height: 1.5;
-  white-space: pre-wrap;
+  padding: 1rem
 }
 
 a,
@@ -52,7 +52,10 @@ h3 {
   margin-top: 0;
   margin-bottom: 0.75em;
 }
+.bio {
+  margin-top: 1.875rem;
 
+}
 h1 {
   font-size: 1.875rem;
   margin-top: 1.875rem;
@@ -60,7 +63,7 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
-  margin-top: 1.5rem;
+
 }
 
 h3 {

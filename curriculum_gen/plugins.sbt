@@ -1,1 +1,1 @@
-// addSbtPlugin("com.typesafe.play" % "sbt-twirl" % "1.6.0-M7")
+// addSbtPlugin("com.typesafe.sbt" % "sbt-twirl" % "1.5.1")
