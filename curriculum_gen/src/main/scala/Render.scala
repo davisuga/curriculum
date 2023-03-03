@@ -9,25 +9,30 @@ def renderTopic(description: String) =
 
 def workExperience(workXp: generated_types.WorkExperiences) =
   s"""
-       <h3 id="97f6e1f4-14a9-4a3f-a3c5-53966fc22fd8" class="">
-          ${workXp.title} | ${workXp.place}
-        </h3>
-        <p id="27384f98-d226-47e3-854e-b2e029e54ae5" class="">
-          ${workXp.startDate} - ${workXp.endDate}
-        </p>
+       <div class="row">
+         <h3 id="97f6e1f4-14a9-4a3f-a3c5-53966fc22fd8" class="">
+            ${workXp.title} | ${workXp.place}
+          </h3>
+          <p id="27384f98-d226-47e3-854e-b2e029e54ae5" class="">
+            ${workXp.startDate} - ${workXp.endDate}
+          </p>
+       </div>
         <ul id="3ce93bf0-2722-4d3a-988f-33bb07da4f71" class="bulleted-list">
          ${workXp.achievements.map(renderTopic).toList.reduce((_ + _))}
         </ul>
         """
 
 def academicXp(academicXp: generated_types.AcademicExperiences) =
-  s"""
-       <h3 id="97f6e1f4-14a9-4a3f-a3c5-53966fc22fd8" class="">
-          ${academicXp.title} | ${academicXp.place}
-        </h3>
-        <p id="27384f98-d226-47e3-854e-b2e029e54ae5" class="">
-          ${academicXp.startDate} - ${academicXp.endDate}
-        </p>
+  s"""<div>
+       <div class="row">
+         <h3 id="97f6e1f4-14a9-4a3f-a3c5-53966fc22fd8" class="">
+            ${academicXp.title} | ${academicXp.place}
+          </h3>
+          <p id="27384f98-d226-47e3-854e-b2e029e54ae5" class="">
+            ${academicXp.startDate} - ${academicXp.endDate}
+          </p>
+       </div>
+        </div>
         <ul id="3ce93bf0-2722-4d3a-988f-33bb07da4f71" class="bulleted-list">
          ${academicXp.achievements.map(renderTopic).toList.reduce((_ + _))}
         </ul>
@@ -37,13 +42,13 @@ def renderFromCV(css: String, cvData: generated_types.RootInterface) = s"""
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Davi Suga</title>
+    <title>${cvData.name}</title>
     <link rel="stylesheet" href="base.css" />
     <style>$css</style>
   </head>
   <body>
     <article id="5e8cf6b6-64d7-4b80-a471-82d217582ef5" class="page sans">
-      <header><h1 class="page-title">Davi Suga</h1></header>
+      <header><h1 class="page-title">${cvData.name}</h1></header>
       <div class="page-body">
         <div id="9d21a44b-6e04-47d8-853f-9746384d4665" class="column-list">
           <div

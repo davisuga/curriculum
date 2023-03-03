@@ -1,21 +1,24 @@
 package curriculum;
-import syntax._
+
 import io.circe._, io.circe.generic.auto._, io.circe.parser._, io.circe.syntax._
 import scala.io.Source
 import better.files._
 import File._
 import concurrent.ExecutionContext.Implicits.global
 import utils._
+import util.chaining.scalaUtilChainingOps
 
 val staticPath = File("./src/main/static/")
+
 val cssFile = staticPath / "base.css"
 val cvDataPath = staticPath / "me.json"
 
 def renderCvInfo(cvInfo: generated_types.RootInterface) =
-  val rendered =
+  val content =
     render_cv.renderFromCV(cssFile.lines().reduce(_ + _), cvInfo)
+
   (File("./output.html"))
-    .overwrite(rendered)
+    .overwrite(content)
     .pipe(trace("created file"))
 
 def onChangeAsset(file: File) =
@@ -38,7 +41,5 @@ def onChangeAsset(file: File) =
     )
   }
   watcher.start()
-
-  Thread.sleep(60 * 10000)
-
-// def msg = "I was compiled by Scala 3. :)"
+  // sleep forever
+  Thread.sleep(10000000)

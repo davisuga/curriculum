@@ -1,6 +1,6 @@
 lazy val root = project
   .in(file("."))
-  .enablePlugins(SbtTwirl)
+  // .enablePlugins(SbtTwirl)
   .settings(
     name := "Curriculum Generator",
     version := "0.1.0-SNAPSHOT",

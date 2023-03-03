@@ -8,13 +8,24 @@ html {
   -webkit-print-color-adjust: exact;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
+  /* A4 paper width */
+  max-width: 297mm;
 }
 @media only screen {
-  body {  
+  body {
     /* margin: 2em auto;   */
     max-width: 900px;
     color: rgb(55, 53, 47);
@@ -23,7 +34,7 @@ body {
 
 body {
   line-height: 1.5;
-  padding: 1rem
+  padding: 1rem;
 }
 
 a,
@@ -54,7 +65,6 @@ h3 {
 }
 .bio {
   margin-top: 1.875rem;
-
 }
 h1 {
   font-size: 1.875rem;
@@ -63,12 +73,11 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
-
 }
 
 h3 {
   font-size: 1.25rem;
-  margin-top: 1.25rem;
+  margin-top: 0.75rem;
 }
 
 .source {
