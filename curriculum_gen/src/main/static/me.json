@@ -7,6 +7,20 @@
   "bio": "Self-taught by nature and programmer since the age of 13, since then in passionate love with the area. Functional programming passionate. In addition to professional experiences, a significant part of what I know was motivated by sheer curiosity and a willingness to experiment and be better.",
   "workExperiences": [
     {
+      "title": "Senior Full Stack Developer",
+      "place": "Crib Equity",
+      "startDate": "02/2023",
+      "endDate": "Present",
+      "placeDescription": "",
+      "achievements": [
+        "Developed a real estate platform using Next.js, Tailwind CSS, and TypeScript, increasing lead generation and improving user experience",
+        "Implemented functionality for capturing home buyer and agent leads, enhancing lead acquisition and management for the platform.",
+        "Created an intuitive and visually appealing homepage, optimizing user engagement and retention.",
+        "Ensured application quality and reliability through comprehensive Cypress testing, covering all major features and functionality"
+      ],
+      "tags": ["frontend", "backend"]
+    },
+    {
       "title": "Software Developer",
       "place": "Float Capital",
       "startDate": "01/2023",
