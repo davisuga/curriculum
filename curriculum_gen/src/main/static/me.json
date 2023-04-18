@@ -1,10 +1,10 @@
 {
   "name": "Davi W. M. Suga",
-  "subtitle": "Software Engineer",
+  "subtitle": "Senior Software Engineer",
   "email": "daviciencia1@gmail.com",
   "github": "github.com/davisuga",
   "linkedin": "linkedin.com/in/davisuga/",
-  "bio": "Self-taught by nature and programmer since the age of 13, since then in passionate love with the area. Functional programming passionate. In addition to professional experiences, a significant part of what I know was motivated by sheer curiosity and a willingness to experiment and be better.",
+  "bio": "A highly skilled and self-taught software engineer with a passion for functional programming, Davi has been programming since the age of 13. His expertise has been honed by professional experiences and an innate curiosity, as well as a drive to experiment and continuously improve.",
   "workExperiences": [
     {
       "title": "Senior Full Stack Developer",
@@ -13,12 +13,15 @@
       "endDate": "Present",
       "placeDescription": "",
       "achievements": [
-        "Developed a real estate platform using Next.js, Tailwind CSS, and TypeScript, increasing lead generation and improving user experience",
-        "Implemented functionality for capturing home buyer and agent leads, enhancing lead acquisition and management for the platform.",
-        "Created an intuitive and visually appealing homepage, optimizing user engagement and retention.",
-        "Ensured application quality and reliability through comprehensive Cypress testing, covering all major features and functionality"
+        "Architected and developed a cutting-edge real estate platform using Next.js, Tailwind CSS, and TypeScript, resulting in increased lead generation and enhanced user experience",
+        "Implemented advanced functionality for capturing home buyer and agent leads, streamlining lead acquisition and management for the platform",
+        "Created an intuitive and visually engaging homepage to optimize user engagement and retention",
+        "Ensured application quality and reliability through rigorous Cypress testing, covering all major features and functionality"
       ],
-      "tags": ["frontend", "backend"]
+      "tags": [
+        "frontend",
+        "backend"
+      ]
     },
     {
       "title": "Software Developer",
@@ -27,12 +30,15 @@
       "endDate": "03/2023",
       "placeDescription": "Float Capital is a DeFi protocol",
       "achievements": [
-        "Implemented and deployed end-to-end data validation service, incrementing confidence in the backend-generated data",
-        "Built full-stack leaderboard feature implementation in ReScript",
-        "Promoted testing culture by explaining how and what to test, increasing overall confidence in code",
-        "Incremented software resilience by implementing environment validation across multiple services"
+        "Implemented and deployed a comprehensive end-to-end data validation service, boosting confidence in the backend-generated data",
+        "Built a full-stack leaderboard feature using ReScript, enhancing platform competitiveness",
+        "Promoted a testing culture by providing guidance on testing methodologies, resulting in increased overall confidence in code",
+        "Enhanced software resilience by implementing environment validation across multiple services"
       ],
-      "tags": ["frontend", "backend"]
+      "tags": [
+        "frontend",
+        "backend"
+      ]
     },
     {
       "title": "Full-stack Developer",
@@ -41,13 +47,17 @@
       "endDate": "Present",
       "placeDescription": "EkonoMe is an online marketplace for economist's services via videoconferences.",
       "achievements": [
-        "Planned the entire implementation based on client needs",
-        "Developed a user-facing mobile app with appointments, chat, and video conferencing",
-        "Integrated mobile and web clients to let users directly connect to economists for video conferencing",
-        "Implemented full-featured Chat with media uploads on both mobile and web app",
-        "Built a real-time user management panel using React and Realtime Database"
+        "Devised the entire implementation strategy based on client requirements",
+        "Developed a sophisticated user-facing mobile app with appointment scheduling, chat, and video conferencing capabilities",
+        "Integrated mobile and web clients to enable seamless connections between users and economists for video conferencing",
+        "Implemented a feature-rich chat system with media uploads on both mobile and web applications",
+        "Constructed a real-time user management panel using React and Realtime Database"
       ],
-      "tags": ["frontend", "mobile", "backend"]
+      "tags": [
+        "frontend",
+        "mobile",
+        "backend"
+      ]
     },
     {
       "title": "Frontend Developer",
@@ -56,11 +66,14 @@
       "endDate": "11/2022",
       "placeDescription": "Harmonize Health is a remote health management platform that helps providers engage patients easily and reduces the total cost of care.",
       "achievements": [
-        "Built entire frontend features from Figma Designs like a real-time messaging center, user management system, and dynamic forms",
-        "Worked together with the product and design team to improve the UX of existing features",
-        "Proactively took backend responsibilities and delivered authorization features in a Nest+Node.js app"
+        "Built a range of frontend features from Figma designs, including a real-time messaging center, user management system, and dynamic forms",
+        "Collaborated closely with the product and design team to refine the UX of existing features",
+        "Proactively assumed backend responsibilities and delivered authorization features in a Nest+Node.js app"
       ],
-      "tags": ["frontend", "backend"]
+      "tags": [
+        "frontend",
+        "backend"
+      ]
     },
     {
       "title": "Software Engineer",
@@ -69,23 +82,29 @@
       "endDate": "01/2022",
       "placeDescription": "SambaTech creates LMS (Learning Management System) and OTT (Over The Top) platforms for companies.",
       "achievements": [
-        "Built educational mobile apps from scratch for different companies.",
-        "Made various features including SSO auth, concurrent video downloading, offline-first video viewing using Redux Toolkit and Expo"
+        "Developed customized educational mobile apps from scratch for various companies",
+        "Implemented a wide array of features, including SSO authentication, concurrent video downloading, and offline-first video viewing using Redux Toolkit and Expo"
       ],
-      "tags": ["frontend", "mobile"]
+      "tags": [
+        "frontend",
+        "mobile"
+      ]
     },
     {
       "title": "Mobile/Frontend Developer",
       "place": "Adorie",
       "startDate": "03/2021",
       "endDate": "08/2021",
-      "placeDescription": "Adorie was e-commerce focused on local stores and delivery within 2 hours.",
+      "placeDescription": "Adorie was an e-commerce platform focused on local stores and delivery within 2 hours.",
       "achievements": [
-        "Improved overall UX by adapting layout for a variety of devices and increasing performance",
-        "Developed new features, such as geolocation of products and stores, dynamic filters, persistent cache, etc, using React Native.",
-        "Ported the whole e-commerce mobile app code to the web"
+        "Enhanced overall UX by optimizing layouts for various devices and improving performance",
+        "Developed innovative features, such as geolocation of products and stores, dynamic filters, and persistent cache using React Native",
+        "Seamlessly ported the entire e-commerce mobile app code to the web"
       ],
-      "tags": ["frontend", "mobile"]
+      "tags": [
+        "frontend",
+        "mobile"
+      ]
     },
     {
       "title": "Software Developer",
@@ -94,11 +113,15 @@
       "endDate": "03/2021",
       "placeDescription": "The Alpha Lumen Institute is an NGO that seeks solutions with social impact through educational actions, developing numerous action and inspiration projects with the community. Among them, the \"Compartilhe\" app allows you to share offers from humanitarian resources such as food and courses.",
       "achievements": [
-        "Planned implementation and built an app called \"Compartilhe\", using Parse in the backend and React Native.",
-        "Built state management with concepts of immutability, single source of truth, and reactive programming with React and Redux.",
-        "Worked on a learning platform called \"Alpha EdTech\" using React, responsive CSS, Context API, JWT, and a custom design system."
+        "Conceptualized and developed the \"Compartilhe\" app using Parse in the backend and React Native",
+        "Implemented state management with a focus on immutability, single source of truth, and reactive programming using React and Redux",
+        "Contributed to the development of the \"Alpha EdTech\" learning platform using React, responsive CSS, Context API, JWT, and a custom design system"
       ],
-      "tags": ["frontend", "mobile", "backend"]
+      "tags": [
+        "frontend",
+        "mobile",
+        "backend"
+      ]
     },
     {
       "title": "Open Source Developer",
@@ -111,7 +134,10 @@
         "Updated ReScript version and added support for ScrollView features on <a href=\"https://github.com/reck753/rescript-reanimated\">rescript-reanimated</a>",
         "<a href=\"https://github.com/davisuga/fast_nbconvert\">Jupyter Notebook → Python converter</a> built in OCaml, also <a href=\"https://pypi.org/project/fast-nbconvert/\">available on pip</a>"
       ],
-      "tags": ["frontend", "mobile"]
+      "tags": [
+        "frontend",
+        "mobile"
+      ]
     }
   ],
   "academicExperiences": [
@@ -121,8 +147,8 @@
       "startDate": "01/2017",
       "endDate": "01/2021",
       "achievements": [
-        "Made undergraduate research and developed a CLI app that creates interactive graphics using solar flare data from NASA's website: github.com/davisuga/solarwheather",
-        "Final paper: A programming learning platform named Olá Mundo! <a href=\"github.com/davisuga/olamundo-next\">github.com/davisuga/olamundo-next</a> from scratch using React + NextJS + ChakraUI for frontend and Prisma + PostgreSQL for backend",
+        "Conducted undergraduate research and developed a CLI app that creates interactive graphics using solar flare data from NASA's website: github.com/davisuga/solarwheather",
+        "Final paper: Developed a programming learning platform named Olá Mundo! <a href=\"github.com/davisuga/olamundo-next\">github.com/davisuga/olamundo-next</a> from scratch using React + NextJS + ChakraUI for frontend and Prisma + PostgreSQL for backend",
         "Implemented Incremental Static Generation for platform content and exercises using markdown"
       ]
     }
