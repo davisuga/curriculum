@@ -18,10 +18,7 @@
         "Created an intuitive and visually engaging homepage to optimize user engagement and retention",
         "Ensured application quality and reliability through rigorous Cypress testing, covering all major features and functionality"
       ],
-      "tags": [
-        "frontend",
-        "backend"
-      ]
+      "tags": ["frontend", "backend"]
     },
     {
       "title": "Software Developer",
@@ -35,29 +32,22 @@
         "Promoted a testing culture by providing guidance on testing methodologies, resulting in increased overall confidence in code",
         "Enhanced software resilience by implementing environment validation across multiple services"
       ],
-      "tags": [
-        "frontend",
-        "backend"
-      ]
+      "tags": ["frontend", "backend"]
     },
     {
-      "title": "Full-stack Developer",
+      "title": "Co-founder and CTO",
       "place": "EkonoMe",
       "startDate": "08/2020",
       "endDate": "Present",
       "placeDescription": "EkonoMe is an online marketplace for economist's services via videoconferences.",
       "achievements": [
-        "Devised the entire implementation strategy based on client requirements",
-        "Developed a sophisticated user-facing mobile app with appointment scheduling, chat, and video conferencing capabilities",
-        "Integrated mobile and web clients to enable seamless connections between users and economists for video conferencing",
-        "Implemented a feature-rich chat system with media uploads on both mobile and web applications",
-        "Constructed a real-time user management panel using React and Realtime Database"
+        "Designed and executed a client-centric implementation strategy, setting the foundation for EkonoMe's platform development",
+        "Spearheaded the development of EkonoMe's flagship mobile app, enhancing user engagement with integrated scheduling, chat, and video features.        ",
+        "Achieved seamless cross-platform video conferencing by integrating mobile and web clients, enhancing user-economist interactions",
+        "Revolutionized EkonoMe's chat system by introducing media upload capabilities, enriching user communication on both mobile and web.",
+        "Pioneered a real-time user management panel using cutting-edge technologies, streamlining platform oversight and efficiency"
       ],
-      "tags": [
-        "frontend",
-        "mobile",
-        "backend"
-      ]
+      "tags": ["frontend", "mobile", "backend"]
     },
     {
       "title": "Frontend Developer",
@@ -70,10 +60,7 @@
         "Collaborated closely with the product and design team to refine the UX of existing features",
         "Proactively assumed backend responsibilities and delivered authorization features in a Nest+Node.js app"
       ],
-      "tags": [
-        "frontend",
-        "backend"
-      ]
+      "tags": ["frontend", "backend"]
     },
     {
       "title": "Software Engineer",
@@ -85,10 +72,7 @@
         "Developed customized educational mobile apps from scratch for various companies",
         "Implemented a wide array of features, including SSO authentication, concurrent video downloading, and offline-first video viewing using Redux Toolkit and Expo"
       ],
-      "tags": [
-        "frontend",
-        "mobile"
-      ]
+      "tags": ["frontend", "mobile"]
     },
     {
       "title": "Mobile/Frontend Developer",
@@ -101,10 +85,7 @@
         "Developed innovative features, such as geolocation of products and stores, dynamic filters, and persistent cache using React Native",
         "Seamlessly ported the entire e-commerce mobile app code to the web"
       ],
-      "tags": [
-        "frontend",
-        "mobile"
-      ]
+      "tags": ["frontend", "mobile"]
     },
     {
       "title": "Software Developer",
@@ -117,11 +98,7 @@
         "Implemented state management with a focus on immutability, single source of truth, and reactive programming using React and Redux",
         "Contributed to the development of the \"Alpha EdTech\" learning platform using React, responsive CSS, Context API, JWT, and a custom design system"
       ],
-      "tags": [
-        "frontend",
-        "mobile",
-        "backend"
-      ]
+      "tags": ["frontend", "mobile", "backend"]
     },
     {
       "title": "Open Source Developer",
@@ -134,10 +111,7 @@
         "Updated ReScript version and added support for ScrollView features on <a href=\"https://github.com/reck753/rescript-reanimated\">rescript-reanimated</a>",
         "<a href=\"https://github.com/davisuga/fast_nbconvert\">Jupyter Notebook → Python converter</a> built in OCaml, also <a href=\"https://pypi.org/project/fast-nbconvert/\">available on pip</a>"
       ],
-      "tags": [
-        "frontend",
-        "mobile"
-      ]
+      "tags": ["frontend", "mobile"]
     }
   ],
   "academicExperiences": [
